@@ -1,0 +1,18 @@
+# uFBT / firmware build outputs
+build/
+dist/
+.vscode/
+.sconsign.dblite
+*.pyc
+__pycache__/
+
+# Local, generated disk data; never commit user files or disk images
+*.img
+*.fap
+*.elf
+*.map
+
+# Local OS/editor files
+.DS_Store
+Thumbs.db
+.idea/

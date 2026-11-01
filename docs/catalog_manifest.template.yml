@@ -1,0 +1,13 @@
+# TEMPLATE ONLY. Do not submit with placeholders or before adding a REAL screenshot.
+# Copy this file to applications/USB/badusb_msc/manifest.yml in your Apps Catalog fork.
+sourcecode:
+  type: git
+  location:
+    origin: https://github.com/YOUR_USERNAME/badusb-msc.git
+    commit_sha: REPLACE_WITH_REAL_FULL_40_CHARACTER_COMMIT_SHA
+short_description: BadUSB scripts with an isolated USB file transfer drive
+# name, id, category and version are sourced from application.fam.
+description: "@docs/catalog_description.md"
+changelog: "@docs/catalog_changelog.md"
+screenshots:
+  - screenshots/ss0.png
